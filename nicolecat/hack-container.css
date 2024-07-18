@@ -1,0 +1,102 @@
+.hack-container {
+
+  height: 400px;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+
+}
+
+.hack-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 12px;
+}
+
+.title {
+  font-family: Karla, sans-serif;
+  font-weight: 400;
+  font-size: 20px;  
+}
+
+.food-container {
+  background-color: rgb(253, 144, 102);
+  height: 400px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+.food-hacks {
+  height: 38px;
+  width: 100px;
+  margin-top: 7px;
+  object-fit: contain;
+  }
+
+.sleep-container {
+  background-color: rgb(103, 166, 193);
+  height: 400px;
+  width: 400px;
+}
+
+.sleep-hacks {
+  height: 32px;
+  width: 100px;
+  margin-top: 11px;
+  margin-bottom: 2px;
+  object-fit: contain;
+}
+
+.play-container {
+  background-color: rgb(239, 207, 62);
+  height: 400px; 
+  width: 400px;
+}
+
+.play-hacks {
+  height: 33px;
+  width: 100px;
+  margin-top: 11px;
+  margin-bottom: 0px;
+  object-fit: contain;
+}
+
+.environment-container {
+  background-color: rgb(107, 205, 185);
+  height: 400px; 
+  width: 400px;
+}
+
+.environment-hacks {
+  height: 40px;
+  width: 40px;
+  margin-top: 5px;
+}
+
+.hack-body {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 22px;
+}
+
+h1 {
+  text-align: center;
+  font-family: karla, sans-serif;
+  font-size: 25px;
+  margin: 0;
+}
+
+p {
+  text-align: center;
+  font-family: karla, sans-serif;
+  line-height: 25px;
+  margin-top: 30px;
+}
